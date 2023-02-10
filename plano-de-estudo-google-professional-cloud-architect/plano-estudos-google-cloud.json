@@ -1,0 +1,500 @@
+{
+    "titulo": "Plano de Estudo sobre a certificação Google Professional Cloud Architect",
+    "motivacao": "A certificação Google Professional Cloud Architect é uma das certificações mais procuradas na área de nuvem, e existem várias razões pelas quais alguém pode optar por obtê-la:\n\nValidação de habilidades: a certificação demonstra que o indivíduo tem conhecimento e experiência em projetar soluções na nuvem usando o Google Cloud Platform.\n\nDestaque no mercado de trabalho: a certificação Google Cloud é amplamente reconhecida e procurada por empregadores em todo o mundo. Ter a certificação pode ajudar a se destacar entre outros candidatos.\n\nAumento de salário: os profissionais certificados geralmente têm salários mais elevados do que aqueles sem certificação.\n\nOportunidades de crescimento profissional: a certificação pode abrir novas oportunidades de carreira para aqueles que buscam crescimento profissional na área de nuvem.\n\nAtualização de habilidades: obter a certificação exige que o indivíduo mantenha-se atualizado com as últimas tendências e tecnologias na nuvem do Google.\n\nDiferenciação: a certificação Google Cloud é uma forma de se destacar em um mercado altamente competitivo, já que a maioria dos profissionais de nuvem está familiarizada com o AWS, mas não necessariamente com o Google Cloud Platform.",
+    "objetivo": "Adquirir o conhecimento necessário para obter a certificação Google Professional Cloud Architect",
+    "validarConhecimento": [
+      {
+        "titulo": "Neal Davis",
+        "url": "https://www.linkedin.com/in/nealkdavis"
+      }
+    ],
+    "preRequisitos": [
+      "Uma recomendação é ter experiência prévia em projetar e implementar soluções na nuvem",
+      "Ter familiaridade com conceitos de nuvem, como alta disponibilidade, escalabilidade e segurança",
+      "Entender os serviços do GCP, como Compute Engine, Kubernetes Engine e Cloud Storage",
+      "Ter praticado em projetos e implementado soluções na nuvem usando o GCP"
+    ],
+    "palavrasChave": [
+      "Organizations",
+      "Folders",
+      "Projects",
+      "Region",
+      "Availability Zone",
+      "Compute Engine",
+      "Cloud Run",
+      "Cloud Functions",
+      "Managed Groups",
+      "Auto Scalling",
+      "Cloud Build",
+      "Container Registry",
+      "GKE",
+      "Big Query",
+      "DataFlow",
+      "Dataprep",
+      "DataProc",
+      "Cloud pub/sub",
+      "Data Studio",
+      "Firestore",
+      "TensorFlow",
+      "Anthos",
+      "VPC Sharing",
+      "VPC Peering",
+      "Dedicated Interconnect",
+      "VPC",
+      "Cloud NAT",
+      "Load Balancer",
+      "Cloud Storage",
+      "MemoryStore"
+    ],
+    "temas": [
+      {
+        "titulo": "Orientações gerais",
+        "referencias": [
+          {
+            "titulo": "Estudos de caso",
+            "url": "https://cloud.google.com/certification/guides/professional-cloud-architect?hl=pt-br"
+          },
+          {
+            "titulo": "Documentação oficial",
+            "url": "https://cloud.google.com/certification/guides/professional-cloud-architect?hl=pt-br"
+          }
+        ],
+        "habilidades": [
+          "Entendimentos básicos sobre a prova de certificação"
+        ]
+      },
+      {
+        "titulo": "Projeto e planejamento de uma arquitetura de solução em nuvem",
+        "referencias": [
+          {
+            "titulo": "Google Cloud Architecture Framework: System design SRE Books",
+            "url": "https://cloud.google.com/architecture/framework/system-design"
+          },
+          {
+            "titulo": "Google Cloud Architecture Framework: System design",
+            "url": "https://cloud.google.com/architecture/framework/system-design"
+          },
+          {
+            "titulo": "Choose and manage compute | Architecture Framework | Google Cloud",
+            "url": "https://cloud.google.com/architecture/framework/system-design/compute"
+          },
+          {
+            "titulo": "Design your network infrastructure | Architecture Framework | Google Cloud",
+            "url": "https://cloud.google.com/architecture/framework/system-design/networking"
+          },
+          {
+            "titulo": "Select and implement a storage strategy | Architecture Framework | Google Cloud",
+            "url": "https://cloud.google.com/architecture/framework/system-design/storage"
+          },
+          {
+            "titulo": "Google Cloud documentation",
+            "url": "https://cloud.google.com/docs"
+          },
+          {
+            "titulo": "Migrate for Anthos and GKE",
+            "url": "https://cloud.google.com/migrate/anthos/"
+          },
+          {
+            "titulo": "Migration to Google Cloud: Choosing your migration path",
+            "url": "https://cloud.google.com/architecture/migration"
+          },
+          {
+            "titulo": "Migrating to the cloud: a guide and checklist",
+            "url": "https://cloud.google.com/resources/cloud-migration-checklist"
+          },
+          {
+            "titulo": "Cloud Migration Products & Services",
+            "url": "https://cloud.google.com/products/cloud-migration"
+          },
+          {
+            "titulo": "Application Migration | Google Cloud",
+            "url": "https://cloud.google.com/solutions/application-migration"
+          },
+          {
+            "titulo": "Twelve-factor app development on Google Cloud | Cloud Architecture Center",
+            "url": "https://cloud.google.com/architecture/twelve-factor-app-development-on-gcp"
+          }
+        ],
+        "habilidades": [
+          "Projetar uma infraestrutura de solução que atenda aos requisitos comerciais",
+          "Projetar uma infraestrutura de solução que atenda aos requisitos técnicos",
+          "Projetar recursos de rede, armazenamento e computação",
+          "Criar um plano de migração (como documentos e diagramas arquiteturais)",
+          "Prever futuras melhorias na solução"
+        ]
+      },
+      {
+        "titulo": "Gerenciamento e provisionamento da infraestrutura da solução",
+        "referencias": [
+          {
+            "titulo": "VPC network overview | Google Cloud",
+            "url": "https://cloud.google.com/vpc/docs/vpc"
+          },
+          {
+            "titulo": "Choosing a Network Connectivity product | Google Cloud",
+            "url": "https://cloud.google.com/network-connectivity/docs/how-to/choose-product"
+          },
+          {
+            "titulo": "Best practices | Cloud Interconnect",
+            "url": "https://cloud.google.com/network-connectivity/docs/interconnect/concepts/best-practices"
+          },
+          {
+            "titulo": "Options for connecting to multiple VPC networks | Cloud Interconnect Best practices for enterprise organizations | Documentation | Google Cloud",
+            "url": "https://cloud.google.com/docs/enterprise/best-practices-for-enterprise-organizations"
+          },
+          {
+            "titulo": "Select and implement a storage strategy | Architecture Framework | Google Cloud",
+            "url": "https://cloud.google.com/architecture/framework/system-design/storage"
+          },
+          {
+            "titulo": "Best practices for Cloud Storage",
+            "url": "https://cloud.google.com/storage/docs/best-practices"
+          },
+          {
+            "titulo": "Enterprise tier | Filestore | Google Cloud",
+            "url": "https://cloud.google.com/filestore/docs/enterprise"
+          },
+          {
+            "titulo": "Design an optimal storage strategy for your cloud workload",
+            "url": "https://cloud.google.com/architecture/storage-advisor"
+          },
+          {
+            "titulo": "Storage options | Compute Engine Documentation | Google Cloud",
+            "url": "https://cloud.google.com/compute/docs/disks"
+          },
+          {
+            "titulo": "Object storage vs block storage vs file storage: which should you choose? | Google Cloud Blog",
+            "url": "https://cloud.google.com/blog/topics/developers-practitioners/map-storage-options-google-cloud"
+          },
+          {
+            "titulo": "Google Kubernetes Engine documentation",
+            "url": "https://cloud.google.com/kubernetes-engine/docs"
+          },
+          {
+            "titulo": "General development tips | Cloud Run Documentation",
+            "url": "https://cloud.google.com/run/docs/tips/general"
+          },
+          {
+            "titulo": "Choosing the right compute option in GCP: a decision tree | Google Cloud Blog",
+            "url": "https://cloud.google.com/blog/products/compute/choosing-the-right-compute-option-in-gcp-a-decision-tree"
+          },
+          {
+            "titulo": "Google Kubernetes Engine vs Cloud Run: Which should you use?",
+            "url": "https://cloud.google.com/blog/products/containers-kubernetes/when-to-use-google-kubernetes-engine-vs-cloud-run-for-containers"
+          }
+        ],
+        "habilidades": [
+          "Configurar topologias de rede",
+          "Configurar sistemas de armazenamento individuais",
+          "Configurar sistemas de computação"
+        ]
+      },
+      {
+        "titulo": "Projeto para segurança e conformidade",
+        "referencias": [
+          {
+            "titulo": "Google Cloud Architecture Framework: Security, privacy, and compliance",
+            "url": "https://cloud.google.com/architecture/framework/security"
+          },
+          {
+            "titulo": "IAM best practice guides available now | Google Cloud Blog",
+            "url": "https://cloud.google.com/blog/products/identity-security/iam-best-practice-guides-available-now"
+          },
+          {
+            "titulo": "Using resource hierarchy for access control | IAM Documentation | Google Cloud",
+            "url": "https://cloud.google.com/iam/docs/resource-hierarchy-access-control"
+          },
+          {
+            "titulo": "Chapter 18 - SRE Engagement Mode",
+            "url": "https://sre.google/workbook/engagement-model"
+          },
+          {
+            "titulo": "Service accounts | Compute Engine Documentation | Google Cloud",
+            "url": "https://cloud.google.com/compute/docs/access/service-accounts"
+          },
+          {
+            "titulo": "Google Cloud Armor overview",
+            "url": "https://cloud.google.com/armor/docs/cloud-armor-overview"
+          },
+          {
+            "titulo": "Private clusters | Kubernetes Engine Documentation | Google Cloud",
+            "url": "https://cloud.google.com/kubernetes-engine/docs/concepts/private-cluster-concept"
+          },
+          {
+            "titulo": "Understanding IAM custom roles | IAM Documentation | Google Cloud",
+            "url": "https://cloud.google.com/iam/docs/understanding-custom-roles"
+          },
+          {
+            "titulo": "Manage compliance obligations | Architecture Framework | Google Cloud",
+            "url": "https://cloud.google.com/architecture/framework/security/compliance"
+          },
+          {
+            "titulo": "Cloud Compliance & Regulations Resources",
+            "url": "https://cloud.google.com/security/compliance"
+          },
+          {
+            "titulo": "Assuring Compliance in the Cloud",
+            "url": "https://services.google.com/fh/files/misc/assuringcompliance_in_the_cloud.pdf"
+          },
+          {
+            "titulo": "Security Command Center | Google Cloud",
+            "url": "https://cloud.google.com/security-command-center/"
+          }
+        ],
+        "habilidades": [
+          "Projetar com foco na segurança",
+          "Projetar visando a conformidade"
+        ]
+      },
+      {
+        "titulo": "Análise e otimização de processos técnicos e comerciais",
+        "referencias": [
+          {
+            "titulo": "Securing the software development lifecycle with Cloud Build and SLSA",
+            "url": "https://cloud.google.com/blog/products/application-development/google-introduces-slsa-framework"
+          },
+          {
+            "titulo": "CI/CD with Google Cloud",
+            "url": "https://cloud.google.com/docs/ci-cd"
+          },
+          {
+            "titulo": "Site Reliability Engineering",
+            "url": "https://sre.google/"
+          },
+          {
+            "titulo": "DevOps tech: Continuous testing | Google Cloud",
+            "url": "https://cloud.google.com/architecture/devops/devops-tech-test-automation"
+          },
+          {
+            "titulo": "Application deployment and testing strategies | Cloud Architecture Center",
+            "url": "https://cloud.google.com/architecture/application-deployment-and-testing-strategies"
+          },
+          {
+            "titulo": "Chapter 17 - Testing for Reliability",
+            "url": "https://sre.google/sre-book/testing-reliability/"
+          },
+          {
+            "titulo": "Service Catalog documentation | Google Cloud",
+            "url": "https://cloud.google.com/service-catalog/docs"
+          },
+          {
+            "titulo": "What is Disaster Recovery? | Google Cloud",
+            "url": "https://cloud.google.com/learn/what-is-disaster-recovery"
+          },
+          {
+            "titulo": "API design guide",
+            "url": "https://cloud.google.com/apis/design/"
+          },
+          {
+            "titulo": "Site Reliability Engineering (SRE) | Google Cloud",
+            "url": "https://cloud.google.com/sre#section-6"
+          },
+          {
+            "titulo": "Patterns for scalable and resilient apps | Cloud Architecture Center",
+            "url": "https://cloud.google.com/architecture/scalable-and-resilient-apps"
+          },
+          {
+            "titulo": "How to achieve a resilient IT strategy with Google Cloud",
+            "url": "https://cloud.google.com/blog/topics/inside-google-cloud/rethinking-business-resilience-with-google-cloud"
+          },
+          {
+            "titulo": "Patterns for scalable and resilient apps | Cloud Architecture Center",
+            "url": "https://cloud.google.com/architecture/scalable-and-resilient-apps#test_your_resilience"
+          },
+          {
+            "titulo": "Disaster recovery planning guide | Cloud Architecture Center",
+            "url": "https://cloud.google.com/architecture/dr-scenarios-planning-guide"
+          }
+        ],
+        "habilidades": [
+          "Analisar e definir processos técnicos",
+          "Analisar e definir processos comerciais",
+          "Desenvolver procedimentos para garantir a confiabilidade das soluções em produção (por exemplo, engenharia do caos e teste de penetração)"
+        ]
+      },
+      {
+        "titulo": "Gerenciamento da implementação",
+        "referencias": [
+          {
+            "titulo": "Cloud Reference Architectures and Diagrams | Cloud Architecture Center",
+            "url": "https://cloud.google.com/architecture"
+          },
+          {
+            "titulo": "What is DevOps? Research and Solutions | Google Cloud",
+            "url": "https://cloud.google.com/devops"
+          },
+          {
+            "titulo": "Develop and deliver apps with Cloud Code, Cloud Build, Google",
+            "url": "https://cloud.google.com/architecture/app-development-and-delivery-with-cloud-code-gcb-cd-and-gke"
+          },
+          {
+            "titulo": "Cloud Deploy, and GKE | Cloud Architecture Center",
+            "url": "https://cloud.google.com/architecture/app-development-and-delivery-with-cloud-code-gcb-cd-and-gke"
+          },
+          {
+            "titulo": "Google Cloud API design tips",
+            "url": "https://cloud.google.com/blog/products/api-management/google-cloud-api-design-tips"
+          },
+          {
+            "titulo": "DevOps tech: Continuous testing | Google Cloud",
+            "url": "https://cloud.google.com/architecture/devops/devops-tech-test-automation"
+          },
+          {
+            "titulo": "DevOps tech: Test data management | Google Cloud",
+            "url": "https://cloud.google.com/architecture/devops/devops-tech-test-data-management"
+          },
+          {
+            "titulo": "Testing Overview | Cloud Functions Documentation",
+            "url": "https://cloud.google.com/functions/docs/testing/test-overview"
+          },
+          {
+            "titulo": "Database Migration Service | Google Cloud",
+            "url": "https://cloud.google.com/database-migration"
+          },
+          {
+            "titulo": "Cloud Migration Products & Services",
+            "url": "https://cloud.google.com/products/cloud-migration"
+          },
+          {
+            "titulo": "gcloud CLI overview | Google Cloud CLI Documentation",
+            "url": "https://cloud.google.com/sdk/gcloud"
+          },
+          {
+            "titulo": "How Cloud Shell works",
+            "url": "https://cloud.google.com/shell/docs/how-cloud-shell-works"
+          },
+          {
+            "titulo": "Google Cloud APIs",
+            "url": "https://cloud.google.com/apis/docs/overview"
+          },
+          {
+            "titulo": "Testing apps locally with the emulator | Cloud Pub/Sub Documentation",
+            "url": "https://cloud.google.com/pubsub/docs/emulator"
+          },
+          {
+            "titulo": "Connect your app and start prototyping | Firebase Documentation",
+            "url": "https://firebase.google.com/docs/emulator-suite/connect_and_prototype?database=Firestore"
+          },
+          {
+            "titulo": "Use the emulator | Cloud Bigtable Documentation",
+            "url": "https://cloud.google.com/bigtable/docs/emulator"
+          },
+          {
+            "titulo": "Using the Cloud Spanner Emulator",
+            "url": "https://cloud.google.com/spanner/docs/emulator"
+          }
+        ],
+        "habilidades": [
+          "Aconselhar equipes de desenvolvimento e operação para garantir a implantação bem-sucedida da solução",
+          "Analisar e definir processos comerciais"
+        ]
+      },
+      {
+        "titulo": "Garantia da confiabilidade das soluções e operações",
+        "referencias": [
+          {
+            "titulo": "Google Cloud operations suite documentation",
+            "url": "https://cloud.google.com/stackdriver/docs"
+          },
+          {
+            "titulo": "Operations: Cloud Monitoring & Logging | Google Cloud",
+            "url": "https://cloud.google.com/products/operations"
+          },
+          {
+            "titulo": "Cloud operations grows with monitoring, logging, more | Google Cloud Blog",
+            "url": "https://cloud.google.com/blog/products/management-tools/cloud-operations-grows-with-monitoring-logging-more"
+          },
+          {
+            "titulo": "Cloud Deploy, and GKE | Cloud Architecture Center",
+            "url": "https://cloud.google.com/architecture/app-development-and-delivery-with-cloud-code-gcb-cd-and-gke"
+          },
+          {
+            "titulo": "Google Cloud API design tips",
+            "url": "https://cloud.google.com/blog/products/api-management/google-cloud-api-design-tips"
+          },
+          {
+            "titulo": "DevOps tech: Continuous testing | Google Cloud",
+            "url": "https://cloud.google.com/architecture/devops/devops-tech-test-automation"
+          },
+          {
+            "titulo": "DevOps tech: Test data management | Google Cloud",
+            "url": "https://cloud.google.com/architecture/devops/devops-tech-test-data-management"
+          },
+          {
+            "titulo": "Testing Overview | Cloud Functions Documentation",
+            "url": "https://cloud.google.com/functions/docs/testing/test-overview"
+          },
+          {
+            "titulo": "Database Migration Service | Google Cloud",
+            "url": "https://cloud.google.com/database-migration"
+          },
+          {
+            "titulo": "Cloud Migration Products & Services",
+            "url": "https://cloud.google.com/products/cloud-migration"
+          },
+          {
+            "titulo": "gcloud CLI overview | Google Cloud CLI Documentation",
+            "url": "https://cloud.google.com/sdk/gcloud"
+          },
+          {
+            "titulo": "How Cloud Shell works",
+            "url": "https://cloud.google.com/shell/docs/how-cloud-shell-works"
+          },
+          {
+            "titulo": "Google Cloud APIs",
+            "url": "https://cloud.google.com/apis/docs/overview"
+          },
+          {
+            "titulo": "Testing apps locally with the emulator | Cloud Pub/Sub Documentation",
+            "url": "https://cloud.google.com/pubsub/docs/emulator"
+          },
+          {
+            "titulo": "Connect your app and start prototyping | Firebase Documentation",
+            "url": "https://firebase.google.com/docs/emulator-suite/connect_and_prototype?database=Firestore"
+          },
+          {
+            "titulo": "Use the emulator | Cloud Bigtable Documentation",
+            "url": "https://cloud.google.com/bigtable/docs/emulator"
+          },
+          {
+            "titulo": "Using the Cloud Spanner Emulator",
+            "url": "https://cloud.google.com/spanner/docs/emulator"
+          }
+        ],
+        "habilidades": [
+          "Criar solução de monitoramento/registro/criação de perfis/alertas",
+          "Gerenciar implantação e liberação",
+          "Ajudar no suporte das soluções implantadas",
+          "Avaliar as medidas de controle de qualidade"
+        ]
+      },
+      {
+        "titulo": "Cursos",
+        "referencias": [
+          {
+            "titulo": "GCP Professional Cloud Architect: Google Cloud Certification",
+            "url": "https://www.udemy.com/course/google-cloud-professional-cloud-architect-certification/"
+          }
+        ],
+        "habilidades": [
+          "Preparar ou atualizar o candidato caso possua lacunas de conhecimento sobre os serviços do GCP"
+        ]
+      },
+      {
+        "titulo": "Simulados",
+        "referencias": [
+          {
+            "titulo": "Latest Google Cloud Architect Practice Question",
+            "url": "https://www.udemy.com/course/gcp-arch-exam-practice/"
+          },
+          {
+            "titulo": "GCP Professional Cloud Architect Practice Exam 2023",
+            "url": "https://www.udemy.com/course/new-gcp-professional-cloud-architect-practice-exams-2022/"
+          }
+        ],
+        "habilidades": [
+          "Validar frente ao que a prova pede e aprender com as questões, no final é possível ver a explicação de cada pergunta."
+        ]
+      }
+    ]
+  }

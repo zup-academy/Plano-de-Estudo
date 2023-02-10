@@ -1,0 +1,309 @@
+{
+    "titulo": "Plano de Estudo sobre a certificação aws solution architect",
+    "motivacao":"Existem várias razões pelas quais alguém poderia optar por obter a certificação AWS Certified Solutions Architect - Associate:\n\nValidação de habilidades: a certificação demonstra que o indivíduo tem conhecimento e experiência em projetar soluções na nuvem usando o Amazon Web Services.\n\nDestaque no mercado de trabalho: a certificação AWS é amplamente reconhecida e procurada por empregadores em todo o mundo. Ter a certificação pode ajudar a se destacar entre outros candidatos.\n\nAumento de salário: os profissionais certificados geralmente têm salários mais elevados do que aqueles sem certificação.\n\nOportunidades de crescimento profissional: a certificação pode abrir novas oportunidades de carreira para aqueles que buscam crescimento profissional na área de nuvem.\n\nAtualização de habilidades: obter a certificação exige que o indivíduo mantenha-se atualizado com as últimas tendências e tecnologias na nuvem.",
+    "objetivo": "Adquirir o conhecimento necessário para obter a certificação aws solution architect",
+    "validarConhecimento": [
+      {
+        "titulo": "Deivid Bitti Padilha (CEO / CTO Flexa Cloud)",
+        "url": "https://www.linkedin.com/in/deividbitti/"
+      }
+    ],
+    "preRequisitos": [
+      "Conhecimento prévio de infraestrutura de nuvem: ter familiaridade com conceitos de nuvem, como alta disponibilidade, escalabilidade, segurança, entre outros.",
+      "Conhecimento básico de serviços AWS: entender os serviços AWS mais comuns, como EC2, S3, VPC, entre outros.",
+      "Entender os serviços do GCP, como Compute Engine, Kubernetes Engine e Cloud Storage",
+      "Experiência prática: praticar projetando e implementando soluções na nuvem usando o AWS pode ser útil antes de realizar a prova de certificação."
+    ],
+    "palavrasChave": [
+			"AWS Well Architected Framework",
+			"Arquiteturas com fraco acoplamento",
+			"AWS Faq's",
+			"IAM & Billing",
+			"KMS & Cloud HSM",
+			"Simple Storage Service (S3)",
+			"Elastic Cloud Compute (EC2)",
+			"Elastic Block Storage (EBS)",
+			"Elastic Load Balancers (ELB)",
+			"Web Application Firewall (WAF)",
+			"Virtual Private Cloud (VPC)",
+			"CloudWatch Vs Cloud Trail",
+			"CloudFront",
+			"Databases",
+			"Athena",
+			"Macie",
+			"Kinesis",
+			"Data Transfer",
+			"ENI, EN & EFA",
+			"CloudFormation",
+			"SQS, SWF & SNS",
+			"EFS & FSx",
+			"Lambda",
+			"Active Directory",
+			"High Performance Computing",
+			"Route 53",
+			"Auto Scaling",
+			"ECS, Fargate, EKS & ECR"
+    ],
+    "temas": [
+      {
+        "titulo": "Orientações gerais",
+        "referencias": [
+          {
+            "titulo": "Documentação oficial",
+            "url": "https://aws.amazon.com/pt/certification/certified-solutions-architect-associate/"
+          }
+        ],
+        "habilidades": [
+          "Entendimentos básicos sobre a prova de certificação"
+        ]
+      },
+      {
+        "titulo": "Design de arquiteturas seguras",
+        "referencias": [
+          {
+            "titulo": "Principios de design",
+            "url": "https://wa.aws.amazon.com/wat.pillar.security.pt_BR.html"
+          },
+          {
+            "titulo": "IAM",
+            "url": "https://aws.amazon.com/pt/iam/"
+          },
+          {
+            "titulo": "AWS KMS",
+            "url": "https://aws.amazon.com/pt/kms/"
+          },
+          {
+            "titulo": "AWS CloudHSM",
+            "url": "https://aws.amazon.com/pt/cloudhsm/"
+          },
+          {
+            "titulo": "AWS VPC",
+            "url": "https://aws.amazon.com/pt/vpc/"
+          },
+          {
+            "titulo": "AWS VPN",
+            "url": "https://aws.amazon.com/pt/vpn/"
+          },
+          {
+            "titulo": "AWS Direct Connect",
+            "url": "https://aws.amazon.com/pt/directconnect/"
+          }
+        ],
+        "habilidades": [
+          "Projetar um modelo de autorização flexível que inclua usuários, grupos, funções e políticas do IAM.",
+          "Projetar uma estratégia de controle de acesso baseada em função (por exemplo, AWS Security Token Service [AWS STS], mudança de função, acesso entre contas).",
+          "Projetar uma estratégia de segurança para várias contas da AWS (por exemplo, AWS Control Tower, políticas de controle de serviço [SCPs]).",
+          "Determinar o uso apropriado de políticas de recursos para os serviços da AWS.",
+          "Determinar quando federar um serviço de diretório com funções do IAM.",
+					"Projetar arquiteturas de VPC com componentes de segurança (por exemplo, security groups, tabelas de rotas, ACLs de rede, gateways NAT).",
+					"Determinar estratégias de segmentação de rede (por exemplo, usando sub-redes públicas e privadas).",
+					"Integrar serviços da AWS para proteger aplicativos (por exemplo, AWS Shield, AWS WAF, AWS SSO, AWS Secrets Manager).",
+					"Proteger conexões de rede externas de e para a nuvem AWS (por exemplo, VPN, AWS Direct Connect).",
+					"Alinhar as tecnologias da AWS para atender aos requisitos de conformidade.",
+					"Criptografia de dados em repouso (por exemplo, AWS Key Management Service [AWS KMS]).",
+					"Implementar políticas de acesso para chaves de criptografia.",
+					"Implementar backups e replicações de dados.",
+					"Implementar políticas para acesso, ciclo de vida e proteção de dados.",
+					"Alternar chaves de criptografia e renovar certificados."
+        ]
+      },
+      {
+        "titulo": "Design de arquiteturas resilientes",
+        "referencias": [
+          {
+            "titulo": "Excelência operacional",
+            "url": "https://wa.aws.amazon.com/wat.pillar.operationalExcellence.pt_BR.html"
+          },
+          {
+            "titulo": "Abordagem da Amazon Web Services à resiliência operacional no setor financeiro e além",
+            "url": "https://d1.awsstatic.com/whitepapers/pt_BR/compliance/AWS_Operational_Resilience.pdf"
+          },
+          {
+            "titulo": "Amazon Elastic Block Store",
+            "url": "https://aws.amazon.com/pt/ebs/"
+          },
+          {
+            "titulo": "Elastic File System",
+            "url": "https://aws.amazon.com/efs/"
+          },
+          {
+            "titulo": "Amazon Simple Storage Service (s3)",
+            "url": "https://aws.amazon.com/pt/s3/"
+          },
+          {
+            "titulo": "Arquiteturas com fraco acoplamento",
+            "url": "https://docs.aws.amazon.com/pt_br/wellarchitected/latest/reliability-pillar/rel_prevent_interaction_failure_loosely_coupled_system.html"
+          },
+          {
+            "titulo": "Arquitetura da carga de trabalho",
+            "url": "https://docs.aws.amazon.com/pt_br/wellarchitected/latest/framework/a-workload-architecture.html"
+          },
+          {
+            "titulo": "Elastic Load Balancer",
+            "url": "https://aws.amazon.com/pt/elasticloadbalancing/"
+          }
+        ],
+        "habilidades": [
+					"Projetar arquiteturas orientadas por eventos, microsserviços e/ou multicamadas com base em requisitos.",
+					"Determinar estratégias de scaling para componentes usados em um projeto de arquitetura.",
+					"Determinar os serviços da AWS necessários para obter um acoplamento fraco com base em requisitos.",
+					"Determinar quando usar contêineres.",
+					"Determinar quando usar tecnologias e padrões sem servidor.",
+					"Recomendar tecnologias apropriadas de computação, armazenamento, redes e banco de dados com base em requisitos.",
+					"Usar serviços da AWS com propósito específico para cargas de trabalho.",
+					"Determinar estratégias de automação para garantir a integridade da infraestrutura.",
+					"Determinar os serviços da AWS necessários para fornecer uma arquitetura altamente disponível e/ou tolerante a falhas nas Zonas de Disponibilidade ou Regiões AWS.",
+					"Identificar métricas com base nos requisitos empresariais para oferecer uma solução altamente disponível.",
+					"Implementar designs para mitigar pontos únicos de falha.",
+					"Implementar estratégias para garantir a durabilidade e a disponibilidade dos dados (por exemplo, backups).",
+					"Selecionar uma estratégia de DR apropriada para atender aos requisitos empresariais.",
+					"Usar serviços da AWS que melhoram a confiabilidade de aplicativos legados e aplicativos que não foram criados para a nuvem (por exemplo, quando não é possível fazer alterações nos aplicativos).",
+					"Usar serviços da AWS com propósito específico para cargas de trabalho."
+        ]
+      },
+      {
+        "titulo": "Design de arquiteturas de alta performance",
+        "referencias": [
+          {
+            "titulo": "Eficiência de performance",
+            "url": "https://wa.aws.amazon.com/wat.pillar.performance.pt_BR.html"
+          },
+          {
+            "titulo": "Amazon RDS",
+            "url": "https://aws.amazon.com/pt/rds/"
+          },
+          {
+            "titulo": "Dynamodb",
+            "url": "https://aws.amazon.com/pt/dynamodb/"
+          },
+          {
+            "titulo": "Elasticache",
+            "url": "https://aws.amazon.com/pt/elasticache/"
+          },
+          {
+            "titulo": "Cloudfront",
+            "url": "https://aws.amazon.com/pt/cloudfront/"
+          },
+          {
+            "titulo": "Containers",
+            "url": "https://aws.amazon.com/pt/containers/"
+          },
+          {
+            "titulo": "EKS",
+            "url": "https://aws.amazon.com/pt/eks/"
+          },
+          {
+            "titulo": "ECS",
+            "url": "https://aws.amazon.com/pt/ecs/"
+          },
+          {
+            "titulo": "ECR",
+            "url": "https://aws.amazon.com/pt/ecr/"
+          }
+        ],
+        "habilidades": [
+					"Determinar quais serviços e configurações de armazenamento atendem às demandas de desempenho.",
+					"Determinar quais serviços de armazenamento que podem ser dimensionados para atender às necessidades futuras.",
+					"Desacoplar cargas de trabalho para que os componentes possam ser dimensionados de forma independente.",
+					"Identificar métricas e condições para realizar ações de scaling.",
+					"Selecionar as opções e os recursos de computação apropriados (por exemplo, tipos de instância do EC2) para atender aos requisitos empresariais.",
+					"Selecionar o tipo e o tamanho de recurso apropriados (por exemplo, a quantidade de memória do Lambda) para atender aos requisitos empresariais.",
+					"Configurar réplicas de leitura para atender aos requisitos empresariais.",
+					"Projetar arquiteturas de banco de dados.",
+					"Determinar um mecanismo de banco de dados apropriado (por exemplo, MySQL em comparação com o PostgreSQL).",
+					"Determinar um tipo de banco de dados apropriado (por exemplo, Amazon Aurora, Amazon DynamoDB).",
+					"Integrar o armazenamento em cache para atender aos requisitos empresariais.",
+					"Criar uma topologia de rede para várias arquiteturas (por exemplo, global, híbrida, multicamadas).",
+					"Determinar quais configurações de rede podem ser dimensionadas para acomodar necessidades futuras.",
+					"Determinar o posicionamento adequado dos recursos para atender aos requisitos empresariais.",
+					"Selecionar a estratégia de balanceamento de carga apropriada.",
+					"Criar e proteger data lakes.",
+					"Projetar arquiteturas de streaming de dados.",
+					"Projetar soluções de transferência de dados.",
+					"Implementar estratégias de visualização.",
+					"Selecionar opções de computação apropriadas para processamento de dados (por exemplo, Amazon EMR).",
+					"Selecionar configurações apropriadas para ingestão.",
+					"Transformar dados entre formatos (por exemplo, .csv para .parquet)."
+        ]
+      },
+      {
+        "titulo": "Design de arquiteturas econômicas",
+        "referencias": [
+          {
+            "titulo": "Otimização de custos",
+            "url": "https://wa.aws.amazon.com/wat.pillar.costOptimization.pt_BR.html"
+          },
+          {
+            "titulo": "Recursos econômicos",
+            "url": "https://docs.aws.amazon.com/pt_br/wellarchitected/latest/framework/a-cost-effective-resources.html"
+          }
+        ],
+        "habilidades": [
+					"Projetar estratégias de armazenamento apropriadas (por exemplo, fazer upload em lote para o Amazon S3 em comparação com upload individual).",
+					"Determinar o tamanho de armazenamento correto para uma carga de trabalho.",
+					"Determinar o método de menor custo de transferência de dados de uma carga de trabalho para o armazenamento da AWS.",
+					"Determinar quando o auto scaling de armazenamento é necessário.",
+					"Gerenciar ciclos de vida de objetos do S3.",
+					"Selecionar a solução apropriada de backup e/ou arquivamento.",
+					"Selecionar o serviço apropriado para a migração de dados aos serviços de armazenamento.",
+					"Selecionar o nível de armazenamento apropriado.",
+					"Selecionar o ciclo de vida de dados correto para armazenamento.",
+					"Selecionar o serviço de armazenamento mais econômico para uma carga de trabalho.",
+					"Determinar uma estratégia de balanceamento de carga apropriada (por exemplo, Application Load Balancer [camada 7] em comparação com o Network Load Balancer [camada 4] em comparação com o Gateway Load Balancer).",
+					"Determinar métodos e estratégias de scaling apropriados para cargas de trabalho elásticas (por exemplo, horizontal em comparação com vertical, hibernação do EC2).",
+					"Determinar serviços de computação da AWS econômicos com casos de uso apropriados (por exemplo, Lambda, Amazon EC2, Fargate)",
+					"Determinar a disponibilidade necessária para diferentes classes de cargas de trabalho (por exemplo, cargas de trabalho de produção e de não produção)",
+					"Escolher a família de instâncias apropriada para uma carga de trabalho.",
+					"Escolher o tamanho de instância apropriado para uma carga de trabalho.",
+					"Projetar políticas de backup e retenção apropriadas (por exemplo, frequência de snapshots).",
+					"Determinar um mecanismo de banco de dados apropriado (por exemplo, MySQL em comparação com o PostgreSQL).",
+					"Determinar serviços de banco de dados da AWS econômicos com casos de uso apropriados (por exemplo, DynamoDB em comparação com o Amazon RDS, sem servidor).",
+					"Determinar tipos de banco de dados da AWS econômicos (por exemplo, formato de série temporal, formato colunar).",
+					"Migrar esquemas e dados de banco de dados para diferentes locais e/ou diferentes mecanismos de banco de dados.",
+					"Configurar tipos de gateway NAT apropriados para uma rede (por exemplo, um único gateway NAT compartilhado em comparação com gateways NAT para cada Zona de Disponibilidade).",
+					"Configurar conexões de rede apropriadas (por exemplo, Direct Connect em comparação com a VPN e com a Internet).",
+					"Configurar rotas de rede apropriadas para minimizar os custos de transferência de rede (por exemplo, região para região, Zona de Disponibilidade para Zona de Disponibilidade, privado para público, Global Accelerator, endpoints de VPC).",
+					"Determinar necessidades estratégicas para redes de entrega de conteúdo (CDNs) e cache de borda.",
+					"Analisar as cargas de trabalho para otimizações de rede.",
+					"Selecionar uma estratégia de limitação de largura de banda apropriada.",
+					"Selecionar a alocação de largura de banda apropriada para um dispositivo de rede (por exemplo, uma única VPN em comparação com várias VPNs, velocidade do Direct Connect)."
+        ]
+      },
+      {
+        "titulo": "Cursos preparatórios",
+        "referencias": [
+          {
+            "titulo": "Curso: Certificação Amazon AWS Solutions Architect Associate 2023",
+            "url": "https://www.udemy.com/course/certificacao-amazon-aws-2019-solutions-architect/"
+          },
+          {
+            "titulo": "Curso Ultimate AWS Certified Solutions Architect Associate SAA-C03",
+            "url": "https://www.udemy.com/course/certificacao-amazon-aws-2019-solutions-architect/"
+          },
+					{
+            "titulo": "Exam readiness aws certified solutions architect associate",
+            "url": "https://aws.amazon.com/pt/training/classroom/exam-readiness-aws-certified-solutions-architect-associate/"
+          }
+        ],
+        "habilidades": [
+          "Preparar ou atualizar o candidato caso possua lacunas de conhecimento sobre os serviços da AWS"
+        ]
+      },
+      {
+        "titulo": "Simulados",
+        "referencias": [
+          {
+            "titulo": "Simulado Exame Amazon AWS Solutions Architect",
+            "url": "https://www.udemy.com/course/simulado-certificacao-amazon-aws-solutions-architect-2019/"
+          },
+          {
+            "titulo": "Practice Exams | AWS Certified Solutions Architect Associate",
+            "url": "https://www.udemy.com/course/practice-exams-aws-certified-solutions-architect-associate/"
+          }
+        ],
+        "habilidades": [
+          "Validar frente ao que a prova pede e aprender com as questões, no final é possível ver a explicação de cada pergunta."
+        ]
+      }
+    ]
+  }
