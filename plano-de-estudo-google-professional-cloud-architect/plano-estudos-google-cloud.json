@@ -302,10 +302,6 @@
             "url": "https://cloud.google.com/sre#section-6"
           },
           {
-            "titulo": "Patterns for scalable and resilient apps | Cloud Architecture Center",
-            "url": "https://cloud.google.com/architecture/scalable-and-resilient-apps"
-          },
-          {
             "titulo": "How to achieve a resilient IT strategy with Google Cloud",
             "url": "https://cloud.google.com/blog/topics/inside-google-cloud/rethinking-business-resilience-with-google-cloud"
           },
