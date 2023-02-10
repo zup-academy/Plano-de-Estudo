@@ -58,6 +58,18 @@
         ]
       },
       {
+        "titulo": "Dicas gerais ao agendar um exame",
+        "referencias": [
+          {
+            "titulo": "Ao agendar o exame",
+            "url": "https://docs.google.com/document/d/1OHlX3J9azGcmiuNkUNq6xzDAy_KZnQg8evs_7lsjY3w/edit"
+          }
+        ],
+        "habilidades": [
+          "Entendimentos básicos sobre como agendar e realizar a prova"
+        ]
+      },
+      {
         "titulo": "Design de arquiteturas seguras",
         "referencias": [
           {
